@@ -12,7 +12,7 @@ def file(name)
 end
 
 
-FileUtils.mkdir(@dir)
+FileUtils.mkdir_p(@dir)
 
 File.write(file("description.md"), <<-EOF
 Escribir el tipo de la siguiente función:
@@ -31,8 +31,8 @@ EOF
 
 File.write(file('expectations.yml'), <<-EOF
 expectations:
-  - binding: f1
-    inspection: HasTypeSignature
+ - binding: f1
+   inspection: HasTypeSignature
 EOF
 )
 
@@ -43,10 +43,10 @@ EOF
 
 File.write(file('meta.yml'), <<-EOF
 tags:
-  - pdep
-  - guia4
-  - inferencia
-  - tipos
+ - pdep
+ - guia4
+ - inferencia
+ - tipos
 locale: es
 EOF
 )
