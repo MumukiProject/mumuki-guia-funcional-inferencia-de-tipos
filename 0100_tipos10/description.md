@@ -1,7 +1,7 @@
 Escribir el tipo de la siguiente función:
 
 ```Haskell
-f1 a b = a b
+f1 a1 a2 a3 = a1 a3 == a2 a3
 ```
 
 **Nota**: no definir la función, sólo escribir su tipo en la forma
