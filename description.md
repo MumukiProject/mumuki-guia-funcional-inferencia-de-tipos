@@ -19,3 +19,11 @@ Las restricciones de tipos que usamos son:
 * Ord los tipos que tienen semántica de mayor y menor, o sea puedo aplicarles <, >, <=, >=
 * Num los tipos cuyas expresiones representan números, o sea puedo sumarlos, restarlos, etc.
 * Show los tipos que podemos mostrar por pantalla. Casi todos, salvo las funciones
+
+Tener en cuenta que si hay más de una restricción en el tipo de una función,
+por ejemplo una función que recibe algo de tipo a que es Eq y retorna algo de tipo b que es Ord,
+la sintaxis a usar para definir el tipo es:
+
+```
+(Eq a, Ord b) => a -> b
+```
