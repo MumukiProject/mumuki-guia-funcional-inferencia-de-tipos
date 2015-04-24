@@ -3,5 +3,5 @@ describe "tipos4" $ do
     const True ((f1 not not not) True) `shouldBe` True
 
   it "la expresion f1 pred succ head debería tipar" $ do
-    const True (f1 pred succ head) `shouldBe` True
+    const True ((f1 pred succ head) [1..5]) `shouldBe` True
 
