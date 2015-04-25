@@ -1,10 +1,7 @@
 describe "tipos17" $ do
-  it "la expresion f1 2 debería tipar" $ do
-    const True (f1 2) `shouldBe` True
+  it "la expresion fCondicional null head debería tipar" $ do
+    const True (fCondicional null head) `shouldBe` True
 
-  it "la expresion f1 True 3 debería tipar" $ do
-    const True (f1 True 3) `shouldBe` True
-
-  it "la expresion f1 [] False debería tipar" $ do
-    const True (f1 [] False) `shouldBe` True
+  it "la expresion fCondicional even succ succ 1 debería tipar" $ do
+    const True (fCondicional even succ succ 1) `shouldBe` True
 
