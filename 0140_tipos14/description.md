@@ -1,7 +1,6 @@
 Escribir el tipo de la siguiente función:
 
 ```Haskell
-
 f1 x y f  =  f x > f y
 ```
 
