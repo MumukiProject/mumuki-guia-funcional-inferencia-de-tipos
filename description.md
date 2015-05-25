@@ -3,7 +3,7 @@
 cualquier tipo numérico y los booleanos) sí cumplen la condición, otros (p.ej. las funciones) no.
 Entonces si una función tiene el tipo
 
-```
+```haskell
 Eq a => a -> a
 ```
 
@@ -24,6 +24,6 @@ Tener en cuenta que si hay más de una restricción en el tipo de una función,
 por ejemplo una función que recibe algo de tipo a que es Eq y retorna algo de tipo b que es Ord,
 la sintaxis a usar para definir el tipo es:
 
-```
+```haskell
 (Eq a, Ord b) => a -> b
 ```
