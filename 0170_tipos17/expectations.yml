@@ -2,3 +2,5 @@
 expectations:
 - binding: fCondicional
   inspection: HasTypeSignature
+- binding: ''
+  inspection: ''
