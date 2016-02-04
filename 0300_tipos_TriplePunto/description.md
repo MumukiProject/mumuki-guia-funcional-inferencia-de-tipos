@@ -4,8 +4,5 @@ Escribir el tipo de la siguiente función:
 f1 = (.)(.)(.)
 ```
 
-**Nota**: no definir la función, sólo escribir su tipo en la forma
 
-```Haskell
-f1 :: ....
-```
+ésta es una función dífícil. Si no sale, no te hagas drama, te la dejamos como simple desafío :smile:
