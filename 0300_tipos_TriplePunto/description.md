@@ -5,4 +5,4 @@ f1 = (.)(.)(.)
 ```
 
 
-ésta es una función dífícil. Si no sale, no te hagas drama, te la dejamos como simple desafío :smile:
+Ésta es una función dífícil. Si no sale, no te hagas drama, te la dejamos como simple desafío :smile:
