@@ -1,7 +1,9 @@
+---
 tags:
- - pdep
- - guia4
- - inferencia
- - tipos
- - guardas
-locale: es
+- pdep
+- guia4
+- inferencia
+- tipos
+- guardas
+layout: editor_right
+type: problem

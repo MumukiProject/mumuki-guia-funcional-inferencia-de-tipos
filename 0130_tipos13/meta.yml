@@ -1,7 +1,9 @@
+---
 tags:
- - pdep
- - guia4
- - inferencia
- - tipos
- - aplicacionParcial
-locale: es
+- pdep
+- guia4
+- inferencia
+- tipos
+- aplicacionParcial
+layout: editor_right
+type: problem

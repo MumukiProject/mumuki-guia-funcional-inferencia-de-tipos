@@ -1,8 +1,10 @@
+---
 tags:
- - pdep
- - guia4
- - inferencia
- - tipos
- - pointFree
- - listas
-locale: es
+- pdep
+- guia4
+- inferencia
+- tipos
+- pointFree
+- listas
+layout: editor_right
+type: problem
