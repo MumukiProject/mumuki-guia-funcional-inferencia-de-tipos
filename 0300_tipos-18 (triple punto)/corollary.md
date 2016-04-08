@@ -19,7 +19,7 @@ Viendo esto, podemos deducir el tipo de la composión.
 
 Ok, pero nosotros le estamos pasando a la composición la función composisión como primer parámetro y como segundo parámentro!
 
-¡Genial! Para seguir te conviene leer (si es que ya no lo hiciste) la ayuda de esta solución. Dale que te espero, te juro que no me voy a ningún lado :face_with_rolling_eyes:
+¡Genial! Para seguir te conviene leer (si es que ya no lo hiciste) la ayuda de esta solución. Dale que te espero, te juro que no me voy a ningún lado :stuck_out_tongue:
 
 Si la función f y la función g son la composición reemplazemos...
 
@@ -68,4 +68,4 @@ Y sacando paréntesis que realmente son innecesarios nos queda:
 (.)(.)(.) :: (i -> j) -> (k -> h -> i) -> k -> h -> j  
 ```
 
-Entender bien los tipos de datos y poder hacer estas deducciones es un buen ejercicio para saber si venimos entendiendo o no, además de divertido, obviamente :D
+Entender bien los tipos de datos y poder hacer estas deducciones es un buen ejercicio para saber si venimos entendiendo o no, además de divertido, obviamente :smile:
