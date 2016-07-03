@@ -10,5 +10,5 @@ fCondicional f1 f2 f3 x
 **Nota**: no definir la función, sólo escribir su tipo en la forma
 
 ```Haskell
-f1 :: ....
+fCondicional :: ....
 ```
